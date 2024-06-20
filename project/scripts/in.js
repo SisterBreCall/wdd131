@@ -213,14 +213,10 @@ async function EndSession() {
         body: ""
     };
 
-    /*
-
     const response = await fetch(apiRequest, options);
 
     if (response.status == 200) {
         let containerElement = document.getElementById('container');
         containerElement.style.display = "none";
     }
-
-    document.get
 }
