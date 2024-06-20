@@ -1,0 +1,57 @@
+button {
+    margin: 10px;
+}
+
+select {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    font-family: "Inter", sans-serif;
+}
+
+#buttonDiv {
+    margin: 10px;
+    padding: 10px;
+}
+
+#buttonDiv p {
+    margin-bottom: 10px;
+    font-family: "Inter", sans-serif;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    display: none;
+}
+
+#aiOutput {
+    font-family: "Inter", sans-serif;
+    margin: 10px;
+}
+
+#userInput {
+    width: 75%;
+    font-family: "Inter", sans-serif;
+}
+
+main {
+    background-color: lightgray;
+    margin: 10px;
+}
+
+button {
+    font-family: "Inter", sans-serif;
+}
+
+@media screen and (min-width: 1000px) {
+    canvas {
+        margin: 10px;
+        width: 700px;
+    }
+}

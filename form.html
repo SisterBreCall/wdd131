@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Review</title>
+    <meta name="description" content="WDD131 Dynamic Web Fundamentals Breanna Call Week 5 Assignment">
+    <meta name="author" content="Breanna Call">
+    <link rel="stylesheet" href="styles/form.css">
+    <script defer src="scripts/form.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Inter&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1 id="productheading">Product Review</h1>
+    </header>
+    <main>
+        <form action="review.html" method="get">
+            <div id="productsection">
+                <label>Product Name</label>
+                <select id="productname" name="productname" required>
+                    <option value="" disabled selected>Select a Product ...</option>
+                </select>
+            </div>
+
+            <div id="stars">
+                <label id="overalllabel">Overall Rating</label>
+                <input type="radio" id="1star" name="rating" value="1" required>
+                <label for="1star" title="1 star">&#9733;</label>
+                <input type="radio" id="2stars" name="rating" value="2" required>
+                <label for="2stars" title="2 stars">&#9733;&#9733;</label>
+                <input type="radio" id="3stars" name="rating" value="3" required>
+                <label for="3stars" title="3 stars">&#9733;&#9733;&#9733;</label>
+                <input type="radio" id="4stars" name="rating" value="4" required>
+                <label for="4stars" title="4 stars">&#9733;&#9733;&#9733;&#9733;</label>
+                <input type="radio" id="5stars" name="rating" value="5" required>
+                <label for="5stars" title="5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</label>
+            </div>
+
+            <div>
+                <label id="datelabel">Date of Installation</label>
+                <input type="date" id="installdate" name="installdate" required>
+            </div>
+
+            <div id="featuressection">
+                <label id="featurelabel">Which features did you find useful in the product?</label>
+                <label id="checklabel">(Check all that apply)</label>
+                <input type="checkbox" id="durability" name="features" value="durability">
+                <label for="durability">Durability</label>
+                <input type="checkbox" id="ease" name="features" value="ease">
+                <label for="ease">Ease of use</label>
+                <input type="checkbox" id="performance" name="features" value="performance">
+                <label for="performance">Performance</label>
+                <input type="checkbox" id="design" name="features" value="design">
+                <label for="design">Design</label>
+            </div>
+
+            <div>
+                <label for="review" id="reviewlabel">Written Review (Optional)</label>
+                <textarea id="review" name="review"></textarea>
+            </div>
+
+            <div>
+                <label for="name" id="namelabel">Your Name (Optional)</label>
+                <input type="text" id="name" name="name">
+            </div>
+
+            <div>
+                <input id="submitbutton" type="submit" value="Process Review">
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <p><span id="currentyear"></span>Breanna Call - United States</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>

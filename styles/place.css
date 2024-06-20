@@ -1,0 +1,198 @@
+:root {
+    --main-color: white;
+}
+
+h1,
+h2 {
+    font-family: "Inter", sans-serif;
+}
+
+span,
+p {
+    font-family: "Dosis", sans-serif;
+}
+
+header {
+    background-color: blue;
+    color: var(--main-color);
+    text-align: center;
+    padding: 10px;
+    border-bottom: 20px solid red;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#datacard {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+}
+
+#datacard h2 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#datacard div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    width: 300px;
+}
+
+#datacard span.bold {
+    text-align: right;
+    margin-right: 10px;
+    width: 150px;
+}
+
+#datacard p {
+    text-align: left;
+    margin: 0;
+    flex: 1;
+}
+
+#weathercard {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+}
+
+#weathercard h2 {
+    text-align: center;
+}
+
+#weathercard img {
+    justify-self: center;
+    margin-top: -20px;
+}
+
+#weathercard div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    width: 300px;
+}
+
+#weathercard span.bold {
+    text-align: right;
+    margin-right: 10px;
+    width: 150px;
+}
+
+#weathercard p {
+    text-align: left;
+    margin: 0;
+    flex: 1;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: blue;
+    padding: 10px;
+}
+
+#lastModified {
+    color: #A9FBC3;
+    font-size: medium;
+    margin-top: -15px;
+}
+
+footer p {
+    color: var(--main-color);
+    text-align: center;
+    font-size: large;
+    font-weight: 100;
+    font-family: "Inter", sans-serif;
+}
+
+@media screen and (min-width: 1500px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+    }
+
+    #datacard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        grid-column: 1;
+        grid-row: 2;
+        background-color: rgba(255, 255, 255, 0.50);
+        margin-left: 20px;
+    }
+
+    #datacard h2 {
+        background-color: rgba(0, 0, 255, 0.50);
+        color: var(--main-color);
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-right: 200px;
+        padding-left: 30px;
+        margin-top: -1px;
+        margin-left: -70px;
+    }
+
+    #weathercard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        grid-column: 10;
+        grid-row: 4;
+        background-color: rgba(255, 255, 255, 0.50);
+        margin-right: 20px;
+    }
+
+    #weathercard img {
+        display: none;
+    }
+
+    #weathercard h2 {
+        background-color: rgba(0, 0, 255, 0.50);
+        color: var(--main-color);
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        margin-top: -1px;
+        margin-left: -40px;
+    }
+
+    #weathercard h2::after {
+        content: "☀️";
+        padding-left: 100px;
+        padding-right: 50px;
+    }
+
+    #datacard span,
+    #datacard p {
+        margin-top: 10px;
+    }
+
+    #weathercard span,
+    #weathercard p {
+        margin-top: 10px;
+    }
+
+    .hero {
+        grid-column: 1/11;
+        grid-row: 1/6;
+    }
+
+    footer {
+        background-color: blue;
+        margin-top: -10px;
+    }
+
+    #icon {
+        padding-left: 60px;
+    }
+}

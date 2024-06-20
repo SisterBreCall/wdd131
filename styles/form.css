@@ -1,0 +1,105 @@
+#productheading {
+    background-color: #08005b;
+    text-align: center;
+    color: white;
+    font-family: "Inter", sans-serif;
+    padding: 10px;
+}
+
+form {
+    max-width: 80%;
+    margin: 50px auto;
+    background-color: lightgray;
+    border: 1px solid gray;
+    border-radius: 3px;
+    display: block;
+    border: none;
+}
+
+div {
+    padding: 10px;
+    display: block;
+}
+
+#productsection label {
+    display: block;
+    font-family: "Dosis", sans-serif;
+}
+
+#productsection select {
+    display: block;
+    width: 100%;
+}
+
+#overalllabel {
+    display: block;
+    font-family: "Dosis", sans-serif;
+}
+
+#datelabel {
+    display: block;
+    font-family: "Dosis", sans-serif;
+}
+
+#featurelabel {
+    display: block;
+}
+
+#featuressection {
+    font-family: "Dosis", sans-serif;
+}
+
+#reviewlabel {
+    display: block;
+    font-family: "Dosis", sans-serif;
+}
+
+#namelabel {
+    display: block;
+    font-family: "Dosis", sans-serif;
+}
+
+#checklabel {
+    display: block;
+}
+
+#submitbutton {
+    display: block;
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+}
+
+#review {
+    width: 100%;
+    height: 100px;
+}
+
+#name {
+    width: 100%;
+}
+
+#installdate {
+    width: 100%;
+}
+
+#lastModified {
+    color: #a9fbc3;
+    font-size: smaller;
+}
+
+.optional {
+    color: #08005b;
+}
+
+footer {
+    background-color: #08005b;
+    font-family: "Inter", sans-serif;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    font-size: large;
+    font-weight: 100;
+    margin: 0;
+}

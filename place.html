@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>United States</title>
+    <meta name="description" content="WDD 131 Dynamic Web Fundamentals Breanna Call Week 3 Assignment">
+    <meta name="author" content="Breanna Call">
+    <link rel="stylesheet" href="styles/place.css">
+    <script defer src="scripts/place.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Inter&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>United States</h1>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/eagle2.webp" media="(min-width: 1500px)">
+                <source srcset="images/eagle.webp" media="(min-width: 550px)">
+                <img src="images/eagle.webp" alt="eagle">
+            </picture>
+        </div>
+        <section id="datacard">
+            <h2>Data</h2>
+            <div>
+                <span class="bold">Area:</span>
+                <p>3,796,742 sq mi</p>
+            </div>
+            <div>
+                <span class="bold">Population:</span>
+                <p>333,914,895</p>
+            </div>
+            <div>
+                <span class="bold">Capital:</span>
+                <p>Washington, D.C.</p>
+            </div>
+            <div>
+                <span class="bold">Language:</span>
+                <p>English</p>
+            </div>
+            <div>
+                <span class="bold">Currency:</span>
+                <p>U.S. Dollar</p>
+            </div>
+            <div>
+                <span class="bold">Time Zone:</span>
+                <p>UTC -4 to -12</p>
+            </div>
+            <div>
+                <span class="bold">Calling Code:</span>
+                <p>+1</p>
+            </div>
+            <div>
+                <span class="bold">Internet TLD:</span>
+                <p>.us</p>
+            </div>
+        </section>
+        <section id="weathercard">
+            <h2>Weather</h2>
+            <img src="images/sunny.svg" alt="sunny icon" width="100">
+            <div>
+                <span class="bold">Temperature:</span>
+                <p>°30 F</p>
+            </div>
+            <div>
+                <span class="bold">Conditions:</span>
+                <p>Sunny</p>
+            </div>
+            <div>
+                <span class="bold">Wind:</span>
+                <p>5 mph</p>
+            </div>
+            <div>
+                <span class="bold">Wind Chill:</span>
+                <p id="wind"></p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p><span id="currentyear"></span>Breanna Call - United States</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>

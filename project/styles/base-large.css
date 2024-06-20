@@ -1,0 +1,19 @@
+@media screen and (min-width: 1000px) {
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    nav {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    
+}

@@ -1,0 +1,47 @@
+button {
+    margin: 10px;
+}
+
+select {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    font-family: "Inter", sans-serif;
+}
+
+canvas {
+    margin: 10px;
+    width: 400px;
+}
+
+#buttonDiv {
+    margin: 10px;
+}
+
+#buttonDiv p {
+    margin-bottom: 10px;
+    font-family: "Inter", sans-serif;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px
+}
+
+main {
+    background-color: lightgray;
+    margin: 10px;
+}
+
+button {
+    font-family: "Inter", sans-serif;
+}
+
+@media screen and (min-width: 1000px) {
+    canvas {
+        margin: 10px;
+        width: 700px;
+    }
+}

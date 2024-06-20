@@ -1,0 +1,186 @@
+header {
+    background-color: #08005B;
+}
+
+h1 {
+    color: white;
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    text-align: center;
+    padding: 10px
+}
+
+h2 {
+    color: #A9FBC3;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+h3 {
+    font-family: "Inter", sans-serif;
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+}
+
+nav {
+    font-family: "Inter", sans-serif;
+    background-color: #686868;
+    padding: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+p {
+    font-family: "Dosis", sans-serif;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    flex: 1 1 100%;
+    margin-right: 20px;
+}
+
+nav a {
+    padding: 1rem;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a:hover {
+    color: #A9FBC3;
+    text-decoration: overline;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+#about {
+    grid-column: 1/7;
+}
+
+#resources {
+    grid-column: 7/11;
+}
+
+.card {
+    border: 1px solid #000;
+    border-top-color: #08005B;
+    margin-top: 1em;
+    margin-right: 1em;
+    border-radius: 11px;
+    border-top-width: 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 10px auto auto auto auto auto;
+}
+
+.card h2 {
+    color: white;
+    background-color: #08005B;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    margin-top: -35px;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+#aboutheader {
+    grid-column: 1/3;
+    grid-row: 1;
+}
+
+#devheader {
+    grid-column: 1/3;
+    grid-row: 1;
+}
+
+#bio {
+    grid-column: 1;
+    grid-row: 2;
+    margin-left: 10px;
+}
+
+#pic {
+    grid-column: 2;
+    grid-row: 2;
+    width: 90%;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#city {
+    grid-column: 1/3;
+    grid-row: 3;
+    text-align: center;
+}
+
+#bar {
+    grid-column: 1/3;
+    grid-row: 4;
+    width: 70%;
+    margin-top: -10px;
+}
+
+#flag {
+    grid-column: 1;
+    grid-row: 5;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 70%;
+}
+
+#textflag {
+    grid-column: 1;
+    grid-row: 6;
+    margin-left: 10px;
+}
+
+#countryinfo {
+    grid-column: 2;
+    grid-row: 5/7;
+    margin-top: 5px;
+    margin-left: -40px;
+    padding-right: 10px;
+}
+
+#devlinks {
+    grid-column: 1/3;
+    grid-row: 4/5;
+}
+
+.devlink {
+    font-family: "Inter", sans-serif;
+    line-height: 30px;
+}
+
+#lastModified {
+    color: #A9FBC3;
+    font-size: medium;
+    margin-top: -15px;
+}
+
+footer {
+    background-color: #08005B;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    font-size: large;
+    font-weight: 100;
+}

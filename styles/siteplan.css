@@ -1,0 +1,40 @@
+#background {
+    background-color: #08005B;
+    color: rgba(255, 255, 255, 0);
+}
+
+#text {
+    color: #000000;
+}
+
+#textwithbackground {
+    background-color: #08005B;
+    color: white;
+}
+
+#linksbackground {
+    background-color: #08005B;
+    color: #E08E45;
+}
+
+#secondary {
+    background-color: #AD7A99;
+    color: rgba(255, 255, 255, 0)
+}
+
+#dosis {
+    font-family: "Dosis", sans-serif;
+}
+
+#inter {
+    font-family: "Inter", sans-serif;
+}
+
+h1 {
+    font-family: "Dosis", sans-serif;
+    color: black;
+}
+
+p {
+    font-family: "Inter", sans-serif;
+}
